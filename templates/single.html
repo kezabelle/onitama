@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        html, body {
+            font-size: 16px;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        #ghostery-purple-box {
+            display: none;
+        }
+
+        .wrapper {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            min-height: 100%;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+
+        .wrapper2 {
+            -webkit-box-flex: 0;
+            -webkit-flex: none;
+            -ms-flex: none;
+            flex: none;
+            max-width: 50%;
+        }
+
+        .card {
+            float: left;
+        }
+
+        .card-grid {
+            border-collapse: collapse;
+            border: 0;
+            margin: 0 1rem 1rem 0;
+        }
+
+        .card-grid-cell {
+            font-size: 1rem;
+            line-height: 1rem;
+            overflow: hidden;
+            width: 1rem;
+            height: 1rem;
+            border: 1px solid white;
+        }
+
+        .card-grid-cell__1 {
+            background-color: #C00;
+        }
+
+        .card-grid-cell__0 {
+            background-color: #EEE;
+        }
+
+        #position_3_3 {
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrapper2">
+        {% for card in cards %}
+            {% include "card.html" with card=card only %}
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>

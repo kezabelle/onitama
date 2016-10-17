@@ -1,0 +1,11 @@
+<div class="card">
+    <table class="card-grid">
+    {% for row in card %}
+    <tr class="card-grid-row">
+        {% for column in row %}
+        <td class="card-grid-cell card-grid-cell__{{ column }}" id="position_{{ forloop.parentloop.counter }}_{{ forloop.counter }}"></td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+    </table>
+</div>
