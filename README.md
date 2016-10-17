@@ -105,3 +105,14 @@
 | - | R | @ | R | - |
 | - | - | - | B | - |
 | - | - | - | - | - |
+
+- with the exception of the tiger, dragon and turtle (promo card), all cards must have at least one offensive move forward, using
+  one of these squares:
+
+| 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|
+| - | - | - | - | - |
+| - | # | # | # | - |
+| - | - | @ | - | - |
+| - | - | - | - | - |
+| - | - | - | - | - |
