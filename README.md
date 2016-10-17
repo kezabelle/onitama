@@ -1,4 +1,4 @@
-### Rules for an onitama card.
+### [Rules](https://boardgamegeek.com/boardgame/160477/onitama/files) for an [Onitama](https://boardgamegeek.com/boardgame/160477/onitama) card.
 
 - 5x5 grid
 - base movement square is always square 13, counting from any corner.
@@ -53,7 +53,7 @@
   - mantis = crane
   - rabbit = frog
   - eel = cobra
-  - **promo cards** turtle = phoenix
+  - [promo cards](https://boardgamegeek.com/boardgameexpansion/195556/onitama-dice-tower-2016-promo-tiles): turtle = phoenix
 - rabit and frog can, like crab, move 2 squares horizontally, skipping the one closest to the base movement square,
   but they are offensively sided diagonal movers, where crab is symmetrical.
   - like crab, they get 3 moves. Unlike tiger.
@@ -90,4 +90,18 @@
 | - | - | # | - | - |
 | - | - | @ | - | - |
 | - | - | - | - | - |
+| - | - | - | - | - |
+
+- pawns may move through occupied spaces as long as the chosen square is either empty, or the pawn is going
+  to take an opposing piece. This is specific to the consecutive path cards (elephant, goose, tiger).
+  In the below card (goose), I, as the blue (B) player, can move to any of the letters (B, R). Moving
+  to either of the "R" squares would have me take an enemy red (R) piece, but I can move to either "B" position without
+  taking a piece:
+
+| 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|
+| - | - | - | - | - |
+| - | B | - | - | - |
+| - | R | @ | R | - |
+| - | - | - | B | - |
 | - | - | - | - | - |
